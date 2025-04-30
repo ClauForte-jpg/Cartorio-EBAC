@@ -1,0 +1,19 @@
+# Ignorar pastas do sistema
+3D Objects/
+Desktop/
+Downloads/
+Music/
+Pictures/
+Videos/
+Contacts/
+AppData/
+Documents/
+Favorites/
+ntuser*
+
+# Ignorar configurações e arquivos do usuário
+.bash_history
+.gitconfig
+.vscode/
+.lesshst
+.rfb/
