@@ -5,87 +5,82 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header{
-    background-color: aquamarine;
+header {
+    background-color: gray;
     padding: 16px 0;
-    color: darkolivegreen;
+    color: #fff;
     display: flex;
-    border-bottom: 16px solid blue;
+    border-bottom: 16px solid black;
     justify-content: center;
     text-transform: uppercase;
     font-style: italic;
 }
 
-header button{
+header button {
     margin-left: 16px;
 }
 
-form{
-    background-color: burlywood;
+form {
+    background-color: antiquewhite;
     padding: 24px 0;
     text-align: center;
     display: none;
 }
 
-form h2{
+form h2 {
     margin-bottom: 16px;
 }
 
-input,button{
+input, button {
     padding: 8px;
 }
 
-button{
-    background-color: chartreuse;
+button {
+    background-color: blue;
     border: none;
     font-weight: bold;
     text-transform: uppercase;
-    color: antiquewhite;
+    color: #fff;
     cursor: pointer;
 }
 
-#botao-cancelar{
-    background-color: brown;
+#botao-cancelar {
+    background-color: red;
 }
 
 ul {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 ul li {
-  max-width: 25%;
-  list-style: none;
-  position: relative;
-  max-height: 280px;
-  overflow-y: hidden;
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
 }
 
 ul li img {
-  width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .overlay-imagem-link {
-  padding: 16px;
-  background-color: black;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100;
-  opacity: 0;
-  transition: all ease .2s;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all ease .5s;
 }
 
 .overlay-imagem-link a {
-  color: white;
-  text-decoration: none;
- }
-
-body {
-  margin: 0;
-  padding: 24px 24px 32px 24px; /* topo, laterais e rodapé */
-  background-color: #f8f8f8;
-  font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
 }
 
 ul li:hover .overlay-imagem-link {
